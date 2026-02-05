@@ -1,0 +1,29 @@
+{
+  "name": "react-minimal-self-contained-boilderplate",
+  "version": "0.0.0",
+  "private": true,
+  "description": "react-minimal-self-contained-boilderplate",
+  "main": "index.html",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "scripts": {
+    "build": "npm run format && NODE_ENV=production vite build",
+    "format": "sh format.sh",
+    "test": "echo \"TBD\"",
+    "start": "npx http-server --cors .",
+    "dev": "vite"
+  },
+  "keywords": [
+    "Sy",
+    "Le"
+  ],
+  "author": "Sy Le",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "sass": "^1.70.0",
+    "vite": "^5.0.12"
+  }
+}
