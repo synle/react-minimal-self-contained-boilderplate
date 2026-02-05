@@ -1,46 +1,13 @@
-<!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-      <title>Simple React App</title>
-    </head>
-    <body>
-      <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-      <script type="text/babel" data-presets="react" data-type="module">
-        import React, {useContext} from "https://cdn.skypack.dev/react";
-        import ReactDOM from "https://cdn.skypack.dev/react-dom";
-        
-        // create a context
-        const ProfileContext = React.createContext();
-  
-        // use it in a component
-        const MyProfileComponent = () => {
-          const profile = useContext(ProfileContext);
-          return <>Hello {profile.name} ({profile.location})</>
-        };
-  
-        // hook up the context with .Provider value={}
-        function App() {
-          const MyProfile = {
-            name: 'Sy',
-            location: 'Bay Area',
-          }
-
-          return (
-            <div>
-              <ProfileContext.Provider value={MyProfile}>
-                <MyProfileComponent></MyProfileComponent>
-              </ProfileContext.Provider>
-            </div>
-          );
-        }
-  
-        ReactDOM.render(
-          <App />,
-          document.body
-        );
-      </script>
-    </body>
-  </html>
+<!-- NOTE: this file is only used for local test... -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Loading...</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <load></load>
+    <script src="./index.js"></script>
+  </body>
+</html>

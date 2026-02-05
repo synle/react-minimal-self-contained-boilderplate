@@ -1,0 +1,32 @@
+{
+  "name": "react-minimal-self-contained-boilderplate",
+  "version": "0.0.0",
+  "private": true,
+  "description": "react-minimal-self-contained-boilderplate",
+  "main": "index.html",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production vite build",
+    "format": "prettier --write --ignore-unknown **/*.{html,jsx,less,scss,yml,md,json,prettierrc} *.json",
+    "test": "echo \"TBD\"",
+    "start": "npx http-server --cors .",
+    "dev": "vite"
+  },
+  "keywords": [
+    "Sy",
+    "Le"
+  ],
+  "author": "Sy Le",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "sass": "^1.70.0",
+    "vite": "^5.0.12"
+  }
+}
