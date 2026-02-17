@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 npm i
 
 # Get last modification time and file size of source files in root folder
@@ -15,3 +16,7 @@ while sleep 3; do
  fi
 done
 
+=======
+curl -s -- https://raw.githubusercontent.com/synle/gha-workflow/refs/heads/main/dev.sh | \
+bash -s -- '*.json *.scss *.jsx *.js' 'npm run start'
+>>>>>>> 3362d55eaa88e3b4a38e4cd95c8fceb188e411f5
