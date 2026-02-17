@@ -1,11 +1,11 @@
-<<<<<<< HEAD
-index.js
-=======
+*.bundle.*
 *.min.*
 .build
-dist
-*.bundle.*
+<<<<<<< HEAD
+=======
 >>>>>>> 3362d55eaa88e3b4a38e4cd95c8fceb188e411f5
 build
 coverage
+dist
+index.js
 node_modules
