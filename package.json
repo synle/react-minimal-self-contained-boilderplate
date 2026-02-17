@@ -13,7 +13,7 @@
   },
   "scripts": {
     "build": "NODE_ENV=production vite build",
-    "format": "prettier --write --ignore-unknown \"**/**/**/**/*.{html,xml,jsx,js,tsx,ts,less,scss,yml,md,json,prettierrc}\"",
+    "format": "prettier --write --ignore-unknown --cache '**/*.{js,jsx,ts,tsx,mjs,cjs,json,html,css,scss,less,md,yml,yaml,graphql,vue,xml}'",
     "test": "echo \"TBD\"",
     "start": "npx http-server --cors .",
     "dev": "vite"
