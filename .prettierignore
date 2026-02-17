@@ -1,7 +1,12 @@
+*.bundle.*
 *.min.*
 .build
-dist
-*.bundle.*
+<<<<<<< HEAD
+=======
+>>>>>>> 3362d55eaa88e3b4a38e4cd95c8fceb188e411f5
+>>>>>>> 73dbcfb38346f8b9922bf61f7a4a8c4e54a2e2b8
 build
 coverage
+dist
+index.js
 node_modules
