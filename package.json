@@ -8,11 +8,6 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
-<<<<<<< HEAD
-  "scripts": {
-    "build": "npm run format && NODE_ENV=production vite build",
-    "format": "sh format.sh",
-=======
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
     "sass": "^1.70.0",
@@ -21,7 +16,6 @@
   "scripts": {
     "build": "NODE_ENV=production vite build",
     "format": "prettier --write --ignore-unknown --cache '**/*.{js,jsx,ts,tsx,mjs,cjs,json,html,css,scss,less,md,yml,yaml,graphql,vue,xml}'",
->>>>>>> 3362d55eaa88e3b4a38e4cd95c8fceb188e411f5
     "test": "echo \"TBD\"",
     "start": "npx http-server --cors .",
     "dev": "vite"
