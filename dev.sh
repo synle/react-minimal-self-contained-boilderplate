@@ -17,6 +17,6 @@ while sleep 3; do
 done
 
 =======
-curl -s -- https://raw.githubusercontent.com/synle/gha-workflow/refs/heads/main/dev.sh | \
+curl -sL -- "https://github.com/synle/gha-workflow/blob/head/dev.sh?raw=1" | \
 bash -s -- '*.json *.scss *.jsx *.js' 'npm run start'
 >>>>>>> 3362d55eaa88e3b4a38e4cd95c8fceb188e411f5
