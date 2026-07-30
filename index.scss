@@ -57,11 +57,11 @@
 }
 
 /* Manual override */
-:root[data-theme='dark'] {
+:root[data-theme="dark"] {
   @include dark-theme;
 }
 
-:root[data-theme='light'] {
+:root[data-theme="light"] {
   @include light-theme;
 }
 
@@ -416,7 +416,7 @@ textarea {
   }
 }
 
-button[role='button'] {
+button[role="button"] {
   text-align: center;
   display: inline-block !important;
 }

@@ -1,5 +1,5 @@
-import React, { useContext } from 'react';
-import ReactDOM from 'react-dom';
+import React, { useContext } from "react";
+import ReactDOM from "react-dom";
 
 // create a context
 const ProfileContext = React.createContext();
@@ -17,8 +17,8 @@ const MyProfileComponent = () => {
 // hook up the context with .Provider value={}
 function App() {
   const MyProfile = {
-    name: 'Sy',
-    location: 'Bay Area',
+    name: "Sy",
+    location: "Bay Area",
   };
 
   return (
