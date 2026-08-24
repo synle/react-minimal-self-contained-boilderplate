@@ -1,13 +1,13 @@
 {
   "rules": {
-    "eslint(no-unused-vars)": "off",
-    "eslint(no-unused-expressions)": "off",
-    "eslint(no-misleading-character-class)": "off",
-    "eslint(no-cond-assign)": "off",
-    "eslint(no-func-assign)": "off",
-    "eslint(getter-return)": "off",
-    "eslint(valid-typeof)": "off",
-    "eslint(no-constant-condition)": "off",
-    "oxc(bad-comparison-sequence)": "off"
+    "no-unused-vars": "off",
+    "no-unused-expressions": "off",
+    "no-misleading-character-class": "off",
+    "no-cond-assign": "off",
+    "no-func-assign": "off",
+    "getter-return": "off",
+    "valid-typeof": "off",
+    "no-constant-condition": "off",
+    "bad-comparison-sequence": "off"
   }
 }
