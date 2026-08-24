@@ -1,3 +1,3 @@
 # minimal-react-boilderplate
 
-Simplest way to get react code render without any dependencies on a build pipeline.
+Minimal self-contained React starter built with Vite.
