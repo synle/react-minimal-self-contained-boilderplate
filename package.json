@@ -16,7 +16,8 @@
     "test": "echo \"TBD\"",
     "start": "npx http-server --cors .",
     "dev": "vite",
-    "format:check": "oxfmt --check ."
+    "format:check": "oxfmt --check .",
+    "lint": "npx oxlint ."
   },
   "dependencies": {
     "react": "^17.0.2",
